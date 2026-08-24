@@ -1,0 +1,31 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Secrets and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.yaml
+*-secret.yaml
+kubeconfig
+kubeconfig.*
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
